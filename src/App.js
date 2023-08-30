@@ -1,7 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Main from "./components/Main";
+import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
+import Formation from "./components/Formation";
+import MoreAbout from "./components/MoreAbout";
 
 export const fontStyle = {
   '-webkit-text-stroke-width': '1px',
@@ -22,8 +24,10 @@ function App() {
     <BrowserRouter>
       <NavBar/>
       <Routes>
-          <Route path="/pagina-inicial" element={<Main/>} />
+          <Route path="/" element={<Home/>} />
           <Route path="/projetos" element={<Projects/>} />
+          <Route path="/formacao" element={<Formation/>}/>
+          <Route path="/mais-sobre" element={<MoreAbout/>} />
       </Routes>
     </BrowserRouter>
     </div>

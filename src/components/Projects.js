@@ -2,27 +2,27 @@ import { fontStyle } from "../App"
 
 const Projects = () => {
     return(
-        <div>
-            <h2 className="font-bold text-2xl pb-2" style={fontStyle} >Alguns Dos meus Projetos</h2>
+        <div className="flex flex-col items-center text-white">
+            <h2 className="font-bold text-2xl pb-2" style={fontStyle} >Alguns Dos meus Projetos:</h2>
 
             <div className="flex">
-                <div>
-                    <div className="bg-blue">PROJETO</div>
-                    <ul>Detalhes</ul>
-                    <ul>Detalhes</ul>
-                    <ul>Detalhes</ul>
+                <div className="m-2 flex flex-col items-center">
+                    <div className="bg-blue p-8 rounded ">PROJETO</div>
+                    <li>Detalhes</li>
+                    <li>Detalhes</li>
+                    <li>Detalhes</li>
                 </div>
 
-                <div>
-                    <div>PROJETO</div>
-                    <ul>Detalhes</ul>
-                    <ul>Detalhes</ul>
-                    <ul>Detalhes</ul>
+                <div className="m-2 flex flex-col items-center">
+                    <div className="bg-blue p-8 rounded ">PROJETO</div>
+                    <li>Detalhes</li>
+                    <li>Detalhes</li>
+                    <li>Detalhes</li>
                 </div>
             </div>
 
-            <div>
-                <h2 className="font-bold text-2xl pb-2" style={fontStyle}>Confira todos os meus projetos no Github</h2>
+            <div className="flex items-center ">
+                <h2 className="font-bold text-2xl m-6" style={fontStyle}>Confira todos os meus projetos no Github</h2>
                 <img></img>
             </div>
             

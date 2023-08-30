@@ -1,6 +1,6 @@
 import { fontStyle } from "../App"
 
-const Main = () => {
+const Home = () => {
     return (
         <div className="font-semibold text-base ">
             <div className="flex justify-evenly items-center mb-10">
@@ -33,4 +33,4 @@ const Main = () => {
     )
 }
 
-export default Main
+export default Home
