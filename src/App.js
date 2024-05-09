@@ -20,7 +20,8 @@ function App() {
           w-screen
           h-screen
           bg-backg
-          static">
+          static
+          h-lvh">
     <BrowserRouter>
       <NavBar/>
       <Routes>

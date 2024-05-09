@@ -2,13 +2,13 @@ import { fontStyle } from "../App"
 
 const Projects = () => {
     return(
-        <div className="flex flex-col items-center text-white">
+        <div className="flex flex-col items-center text-white h-full mt-20 w-full">
             <h2 className="font-bold text-2xl pb-2" style={fontStyle} >Alguns Dos meus Projetos:</h2>
 
-            <div className="flex">
+            <div className="flex flex-col md:flex-row w-full text-xs">
 
-            <div className="m-2 flex flex-col items-center">
-                    <div className="bg-blue p-8 rounded ">
+            <div className="m-2 flex flex-col md:w-1/3">
+                    <div className="bg-blue p-8 rounded w-full mb-2">
                         <p>Finance Control</p>
                         <p>Em andamento</p>
                     </div>
@@ -27,8 +27,8 @@ const Projects = () => {
                     </p>
                 </div>
 
-                <div className="m-2 flex flex-col items-center">
-                    <div className="bg-blue p-8 rounded ">
+                <div className="m-2 flex flex-col md:w-1/3">
+                    <div className="bg-blue p-8 rounded w-full mb-2">
                         <p>Barbie Page</p>
                         <p>Desenvolvimento próprio</p>
                     </div>
@@ -44,8 +44,8 @@ const Projects = () => {
                     <a href="https://sabrinapratafernandes.github.io/barbiepage/" >Ver Online</a>
                 </div>
 
-                 <div className="m-2 flex flex-col items-center">
-                    <div className="bg-blue p-8 rounded ">
+                 <div className="m-2 flex flex-col md:w-1/3">
+                    <div className="bg-blue p-8 rounded w-full mb-2">
                         <p>Sa Som</p>
                         <p>Projeto desenvolvido em curso</p>
                     </div>
@@ -63,10 +63,10 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="flex items-center ">
+            <div className="flex flex-col md:flex-row md:items-center">
                 <h2 className="font-bold text-2xl m-6" style={fontStyle}>Confira todos os meus projetos no Github</h2>
-                <div className="m-2 flex flex-col items-center">
-                    <div className="bg-blue p-8 rounded ">
+                <div className="m-2 flex flex-col text-xs md:w-1/3 ">
+                    <div className="bg-blue p-8 rounded w-full mb-2">
                         <p>Integração com GitHub</p>
                         <p>Desenvolvimento Proprio</p>
                     </div>
