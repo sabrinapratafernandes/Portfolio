@@ -2,7 +2,7 @@ import { fontStyle } from "../App"
 
 const Home = () => {
     return (
-        <div className="font-semibold text-base ">
+        <div className="text-base md:w-2/3">
             <div className="flex justify-evenly items-center mb-10">
                 <img className='w-40 h-40 rounded-full shadow-md shadow-pink'
                 src='/assets/foto.jpg' alt="foto" />
@@ -27,7 +27,7 @@ const Home = () => {
                 <h1 className="font-bold text-4xl pb-2" style={fontStyle} >
                     Frontend Developer
                 </h1>
-                <p className="text-base pl-20">Tenho 23 anos e 1 ano de experiencia em desenvolvimento de projetos para estudo! Curso Engenharia de Software e sou formada em Marketing, tenho inglês avançado e sou apaixonada por resolver problemas de forma criativa.</p>
+                <p className="text-base pl-10">Tenho 23 anos e 1 ano de experiencia em desenvolvimento de projetos para estudo! Curso Engenharia de Software e sou formada em Marketing, tenho inglês avançado e sou apaixonada por resolver problemas de forma criativa.</p>
             </div>
         </div>
     )
