@@ -2,13 +2,13 @@ import { fontStyle } from "../App"
 
 const Projects = () => {
     return(
-        <div className="flex flex-col items-center  mt-[600px] w-full bg-backg h-lvh md:mt-0 ">
-            <h2 className="font-bold text-2xl pb-2" style={fontStyle} >Alguns Dos meus Projetos:</h2>
+        <div className="flex flex-col items-center justify-center bg-black w-screen md:h-screen md:pt-0 pt-20">
+            <h2 className="font-bold text-2xl pb-2 md:mt-20" style={fontStyle} >Alguns Dos meus Projetos:</h2>
 
-            <div className="flex flex-col items-center justify-center md:flex-row w-full text-sm md:flex-wrap">
+            <div className="text-white flex flex-col items-center justify-center md:flex-row w-full text-sm md:flex-wrap">
 
-            <div className="bg-white p-1 m-1 rounded flex flex-col w-4/5 md:w-[350px] md:h-64">
-                    <div className="text-base bg-blue text-black p-4 rounded w-full mb-2 flex flex-col items-center justify-center">
+            <div className="bg-principal p-2 m-1 rounded flex flex-col w-4/5 md:w-[350px] md:h-64">
+                    <div className="text-base bg-violet p-4 rounded w-full mb-2 flex flex-col items-center justify-center">
                         <p className="font-bold">Finance Control</p>
                         <p>Em andamento</p>
                     </div>
@@ -26,8 +26,8 @@ const Projects = () => {
                     </div>        
             </div>
 
-                <div className="bg-white p-1 m-1 rounded flex flex-col w-4/5 md:w-[350px] md:h-64">
-                    <div className="text-base bg-blue text-black p-4 rounded w-full mb-2 flex flex-col items-center justify-center">
+                <div className="bg-principal p-2 m-1 rounded flex flex-col w-4/5 md:w-[350px] md:h-64">
+                    <div className="text-base bg-violet p-4 rounded w-full mb-2 flex flex-col items-center justify-center">
                         <p className="font-bold">Integração com GitHub</p>
                         <p>Desenvolvimento Proprio</p>
                     </div>
@@ -43,8 +43,8 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="bg-white p-1 m-1 rounded flex flex-col w-4/5 md:w-[350px] md:h-64">
-                    <div className="text-base bg-blue text-black p-4 rounded w-full mb-2 flex flex-col items-center justify-center">
+                <div className="bg-principal p-2 m-1 rounded flex flex-col w-4/5 md:w-[350px] md:h-64">
+                    <div className="text-base bg-violet p-4 rounded w-full mb-2 flex flex-col items-center justify-center">
                         <p className="font-bold">Barbie Page</p>
                         <p>Desenvolvimento próprio</p>
                     </div>
@@ -60,8 +60,8 @@ const Projects = () => {
                 
                 </div>
 
-                 <div className="bg-white p-1 m-1 rounded flex flex-col w-4/5 md:w-[350px] md:h-64">
-                    <div className="text-base bg-blue text-black p-4 rounded w-full mb-2 flex flex-col items-center justify-center">
+                 <div className="bg-principal p-2 m-1 rounded flex flex-col w-4/5 md:w-[350px] md:h-64">
+                    <div className="text-base bg-violet p-4 rounded w-full mb-2 flex flex-col items-center justify-center">
                         <p className="font-bold">Sa Som</p>
                         <p>Projeto desenvolvido em curso</p>
                     </div>
@@ -76,7 +76,7 @@ const Projects = () => {
                 </div>
 
             </div>
-            <h2 className="font-bold text-2xl m-6" style={fontStyle}>Confira todos os meus projetos no Github</h2>
+            <h2 className="font-bold text-2xl m-6 mb-20" style={fontStyle}>Confira todos os meus projetos no Github</h2>
 
             
                 

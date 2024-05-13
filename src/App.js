@@ -18,10 +18,9 @@ function App() {
           justify-center 
           items-center
           w-screen
-          h-screen
+    
           bg-backg
-          static
-          h-lvh">
+          static">
     <BrowserRouter>
       <NavBar/>
       <Routes>

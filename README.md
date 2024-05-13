@@ -2,6 +2,11 @@
 
 Em andamento
 
+- Aplicando os princípios de mobile first!
+- Responsivo!
+
+### Desenvolvido usando:
+
 - React.JS
 - Tailwindcss
 - HTML

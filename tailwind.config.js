@@ -8,14 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        backg: '#0C4271',
+        backg: '#160040',
         fonts: {
           white: '#FFFFFF',
           black: '#000000',
         },
-        darkBlue: '#0C4271',
+        principal: '#160040',
         blue: '#0A81AB',
-        pink: '#F9DFDC'
+        pink: '#F9DFDC',
+        violet: '#7360DF',
+        violetLight: '#C499F3'
       }
     },
   },
