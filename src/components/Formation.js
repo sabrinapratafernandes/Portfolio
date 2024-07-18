@@ -10,18 +10,18 @@ const Formation = () => {
     };
 
     return (
-        <div className="h-screen w-full bg-principal flex flex-col items-center justify-center text-white p-10  md:p-0 md:text-base text-sm">
-            <div>
-                <img/>
-                <h2 className="font-bold text-2xl pb-2" style={fontStyle}>Formação</h2>
-            </div>
-
-            <p className="pb-2">Engenharia de Software: Uninter  2022 a 2026 - Em andamento</p>
+        <div className="h-screen w-full bg-principal flex flex-col items-center justify-center text-white p-10  md:p-0 md:text-base text-base">
+            
+                
+            <h2 className="text-white text-3xl pb-2">Formação</h2>
+           
+        <div className="bg-black p-4 rounded">
+            <p>Engenharia de Software: Uninter  2022 a 2026 - Em andamento</p>
             <p>Marketing, Uninter - Concluído</p>
-
+        </div>
             <div className="mt-8">
-                <h2 className="font-bold text-2xl pb-2" style={fontStyle}>Cursos / Certificações</h2>
-                <div className="flex" >
+                <h2 className="text-white text-3xl pb-2">Cursos / Certificações</h2>
+                <div className="flex bg-black p-4 rounded" >
                     <div>
                     <li> React JS: Crie testes com Jest e Testing Library </li>
                     <li className="bg-violet p-1 rounded"> Formação - Aplicações Web com JavaScrip</li>

@@ -17,7 +17,10 @@ module.exports = {
         blue: '#0A81AB',
         pink: '#F9DFDC',
         violet: '#7360DF',
-        violetLight: '#C499F3'
+        violetLight: '#C499F3',
+        strongpink: '#EB596E',
+        yellow: '#FFE227'
+
       }
     },
   },

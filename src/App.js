@@ -4,24 +4,19 @@ import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import Formation from "./components/Formation";
 import MoreAbout from "./components/MoreAbout";
+import ThreeScene from "./components/ThreeScene";
 
 export const fontStyle = {
-  '-webkit-text-stroke-width': '1px',
-  '-webkit-text-stroke-color': '#F9DFDC',
+  '-webkit-text-stroke-width': '0.5px',
+  '-webkit-text-stroke-color': '#7360DF',
   color: '#FFFFFF00'
 }
 
 function App() {
   return (
-    <div className="
-          flex flex-col
-          justify-center 
-          items-center
-          w-screen
-    
-          bg-backg
-          static">
-    <BrowserRouter>
+    <div>
+      <BrowserRouter>
+      <ThreeScene/>
       <NavBar/>
       <Routes>
           <Route path="/" element={<Home/>} />
