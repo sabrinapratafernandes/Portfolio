@@ -6,6 +6,8 @@ import Formation from "./components/Formation";
 import MoreAbout from "./components/MoreAbout";
 import ThreeScene from "./components/ThreeScene";
 
+import Jobs from "./components/Jobs";
+
 export const fontStyle = {
   '-webkit-text-stroke-width': '0.5px',
   '-webkit-text-stroke-color': '#7360DF',
@@ -20,6 +22,7 @@ function App() {
       <NavBar/>
       <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/servicos" element={<Jobs/>}/>
           <Route path="/projetos" element={<Projects/>} />
           <Route path="/formacao" element={<Formation/>}/>
           <Route path="/mais-sobre" element={<MoreAbout/>} />
