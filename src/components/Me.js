@@ -1,4 +1,5 @@
 import { fontStyle } from "../App"
+import iconsMeData from "../data/iconsMeData"
 
 const Me = () => {
     return (
@@ -15,34 +16,22 @@ const Me = () => {
                     </h1>
                     <div className="flex justify-center items-center
                     p-2 mt-10">
-                        <img className='w-8 md:w-10 h-auto'
-                            src="/assets/js.png" alt="icone javascript"/>
-                        <img className='w-8 md:w-10 h-auto'
-                            src="/assets/react.png" alt="icone react"/>
-                        <img className='w-8 md:w-10 h-auto'
-                            src="/assets/html5.png" alt="icone html"/>
-                        <img className='w-8 md:w-10 h-auto'
-                            src="/assets/css3.png"/>
-                        <img className='w-8 md:w-10 h-auto'
-                        src="/assets/typescript100.png"/>
-                        <img className='w-8 md:w-10 h-auto'
-                        src="/assets/tailwind-css.svg"/>
-                        <img className='w-8 md:w-10 h-auto'
-                        src="/assets/git.svg"/>
-                        <img className='w-8 md:w-10 h-auto'
-                        src="/assets/github.svg"/>
-                        <img className='w-8 md:w-10 h-auto'
-                        src="/assets/figma.png"/>
-                        <img className='w-8 md:w-10 h-auto'
-                        src="/assets/php.png"/>
+                        {iconsMeData.map((image, index) => (
+                            <img
+                            key={index}
+                            className='w-8 md:w-10 h-auto m-2'
+                            src={image.src}
+                            alt={image.alt}
+                            />
+                        ))}
                     </div>
                 </div>
             </div>
 
             <div className="flex">
-                <button className="bg-black text-white border-2 p-2 rounded m-4 text-xl" >
+                <button className="bg-black text-white border-2 p-2 rounded m-4 text-xl hover:bg-white hover:text-black" >
                     Baixar CV</button>
-                    <button className="bg-black text-white border-2 p-2 rounded m-4 text-xl" >
+                    <button className="bg-black text-white border-2 p-2 rounded m-4 text-xl hover:bg-white hover:text-black" >
                     Contatar</button>
             </div>
                     
