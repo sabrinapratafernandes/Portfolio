@@ -1,5 +1,7 @@
 import { fontStyle } from "../App"
 import { useState } from 'react';
+import AllFormationData from "../data/AllFormationData";
+import formationData from "../data/coursesData";
 
 const Formation = () => {
 
@@ -11,15 +13,17 @@ const Formation = () => {
 
     return (
         <div className="h-screen w-full bg-principal flex flex-col items-center justify-center text-white p-10  md:p-0 md:text-base text-base">
+         <div className="flex flex-col md:flex-row justify-center md:items-start">
+         <div className="md:m-2">
+         <h2 className="text-white text-3xl pb-2">Formação</h2>
             
-                
-            <h2 className="text-white text-3xl pb-2">Formação</h2>
-           
         <div className="bg-black p-4 rounded">
             <p>Engenharia de Software: Uninter  2022 a 2026 - Em andamento</p>
             <p>Marketing, Uninter - Concluído</p>
         </div>
-            <div className="mt-8">
+        </div>
+
+            <div className="md:m-2">
                 <h2 className="text-white text-3xl pb-2">Cursos / Certificações</h2>
                 <div className="flex bg-black p-4 rounded" >
                     <div>
@@ -27,33 +31,29 @@ const Formation = () => {
                     <li className="bg-violet p-1 rounded"> Formação - Aplicações Web com JavaScrip</li>
 
                     <div className={isHidden ? "hidden" : ""}>  
-                        <li>JavaScript para Web: Crie páginas dinâmicas (Maio 2023)</li>
-                        <li>JavaScript: manipulando o DOM (Maio 2023)</li>
-                        <li>JavaScript: Validações e reconhecimento de voz (Agosto 2023)</li>
-                        <li>JavaScript: Criando Requisições (Agosto 2023)</li>
-                        <li>JavaScript na Web: armazenando dados no navegador (Agosto 2023)</li>
-                        <li>JavaScript: Consumindo e tratando dados de uma API (Outubro 2023)</li>
-                        <li>JavaScript: Métodos de Array (Dezembro 2023)</li>
-                        <li>JavaScript: Validando Formulários (Janeiro 2024)</li>
+                    
+                        {AllFormationData.map((info, index) => (
+                            <li>{info.course}</li>
+                        ))}
+
                     </div>
 
                     <button onClick={toggleVisibility} className="text-blue">Ver cursos na formação</button>
 
-                    <li>Tailwind CSS: estilizando a sua página com classes utilitárias (Alura - 03/2023)</li>
-                    <li>HTML e CSS (Alura - 05/2023)</li>
-                    <li>React: escrevendo com TypeScript (Alura - 05/2022)</li>
-                    <li>Imersão Dev. (Alura - 03/2022)</li>
-                    <li>GIT Completo: Do básico ao avançado. (Udemy - 10/2022)</li>                    
-                    
+                        {formationData.map((info, index) => (
+                            <li>{info.certificate}</li> 
+                        ))}
+            
+
                     </div>
                 </div>
             </div>
-
-            <p>Confira estas e outras informações no meu
+            </div>
+            <p className="mt-4 text-lg">Confira estas e outras informações no meu
                 <a className="text-blue"
                 href="https://www.linkedin.com/in/sabrinabpf/"> Linkedin</a>
             </p>
-
+            
         </div>
     )
 };

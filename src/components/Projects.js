@@ -102,7 +102,7 @@ const Projects = () => {
             </div>  
             <h2 className="text-4xl m-6 text-violet">Confira todos os meus projetos!</h2>
 
-            <a href="https://github.com/sabrinapratafernandes?tab=repositories" className="bg-black text-white border-2 p-2 rounded text-xl mb-10" >
+            <a href="https://github.com/sabrinapratafernandes?tab=repositories" className="bg-black text-white border-2 p-2 rounded text-xl mb-10 hover:bg-white hover:text-black" >
                     Ver Projetos</a>          
         </div>
     )

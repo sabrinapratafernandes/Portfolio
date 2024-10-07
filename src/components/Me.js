@@ -15,7 +15,7 @@ const Me = () => {
                     Frontend Developer
                     </h1>
                     <div className="flex justify-center items-center
-                    p-2 mt-10">
+                    p-2 mt-10 w-3/4 flex-wrap md:flex-nowrap">
                         {iconsMeData.map((image, index) => (
                             <img
                             key={index}
