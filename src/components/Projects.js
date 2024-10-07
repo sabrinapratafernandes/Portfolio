@@ -2,7 +2,7 @@ import { fontStyle } from "../App"
 
 const Projects = () => {
     return(
-        <div className="flex flex-col items-center justify-center bg-black w-screen md:h-screen md:pt-0 pt-20">
+        <div className="flex flex-col items-center justify-center bg-black w-screen md:h-screen md:pt-0 pt-20 w-screen">
             <h2 className=" text-3xl pb-2 md:mt-20 text-violet">Destaque Projetos:</h2>
 
             <div className="text-white flex flex-col items-center justify-center md:flex-row w-full text-sm md:flex-wrap">
@@ -100,7 +100,7 @@ const Projects = () => {
                     </div> 
                 </div>
             </div>  
-            <h2 className="text-4xl m-6 text-violet">Confira todos os meus projetos!</h2>
+            <h2 className="text-center text-2xl md:text-4xl m-6 text-violet">Confira todos os meus projetos!</h2>
 
             <a href="https://github.com/sabrinapratafernandes?tab=repositories" className="bg-black text-white border-2 p-2 rounded text-xl mb-10 hover:bg-white hover:text-black" >
                     Ver Projetos</a>          

@@ -2,7 +2,7 @@ import { fontStyle } from "../App"
 
 const More = () => {
     return (
-        <div className="flex flex-col items-center justify-center md:p-0 p-10 pt-2">
+        <div className="flex flex-col items-center justify-center md:p-0 p-10 pt-2 md:w-1/2">
             <h2 className="text-violet text-3xl pb-2">Sobre Mim</h2>
             <div className="w-6/6 md:w-2/3">
                 <p className="">Além de desenvolvolver sou <strong>escritora</strong> e possuo um livro publicado <br></br> <a className="text-blue font-bold">(meu livro)</a>.</p>

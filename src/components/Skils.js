@@ -2,7 +2,7 @@ import { fontStyle } from "../App"
 
 const Skils = () => {
     return (
-        <div className="flex flex-col items-center justify-center md:p-0 p-10">
+        <div className="flex flex-col items-center justify-center md:p-0 p-10 md:w-1/2">
             <h2 className="text-violet text-3xl pb-2">Resumo Profissional</h2>
             <div className="w-6/6 md:w-2/3">
             <li className="pb-2">Atualmente trabalho desenvolvendo alguns projetos como autônoma</li>

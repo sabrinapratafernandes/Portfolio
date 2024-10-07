@@ -15,7 +15,7 @@ const Formation = () => {
         <div className="h-screen w-full bg-principal flex flex-col items-center justify-center text-white p-10  md:p-0 md:text-base text-base">
          <div className="flex flex-col md:flex-row justify-center md:items-start">
          <div className="md:m-2">
-         <h2 className="text-white text-3xl pb-2">Formação</h2>
+         <h2 className="text-white text-2xl md:text-3xl pb-2">Formação</h2>
             
         <div className="bg-black p-4 rounded">
             <p>Engenharia de Software: Uninter  2022 a 2026 - Em andamento</p>
@@ -24,7 +24,7 @@ const Formation = () => {
         </div>
 
             <div className="md:m-2">
-                <h2 className="text-white text-3xl pb-2">Cursos / Certificações</h2>
+                <h2 className="text-white text-2xl md:text-3x pb-2">Cursos / Certificações</h2>
                 <div className="flex bg-black p-4 rounded" >
                     <div>
                     <li> React JS: Crie testes com Jest e Testing Library </li>
