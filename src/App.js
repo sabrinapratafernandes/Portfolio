@@ -12,15 +12,17 @@ export const fontStyle = {
   color: '#FFFFFF00'
 }
 
+const baseUrl = process.env.PUBLIC_URL ?? '';
+
 function App() {
   return (
     <div>
-      <BrowserRouter>
-      <ThreeScene/>
-      <Routes>
-          <Route path="/" element={<Home/>} />
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter basename={baseUrl}>
+        <ThreeScene/>
+        <Routes>
+            <Route path="/" element={<Home/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
