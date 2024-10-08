@@ -1,3 +1,5 @@
+const base = process.env.PUBLIC_URL ?? ''
+
 const iconsMeData = [
     { 
         src: "/assets/js.png", 
@@ -39,6 +41,11 @@ const iconsMeData = [
         src: "/assets/php.png", 
         alt: "icone php" 
     },
-];
+].map(item => {
+    return {
+        ...item,
+        src: base + item.src
+    }
+})
 
 export default iconsMeData;
