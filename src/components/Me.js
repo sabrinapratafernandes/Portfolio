@@ -29,10 +29,12 @@ const Me = () => {
             </div>
 
             <div className="flex">
-                <button className="bg-black text-white border-2 p-2 rounded m-4 text-xl hover:bg-white hover:text-black" >
-                    Baixar CV</button>
-                    <button className="bg-black text-white border-2 p-2 rounded m-4 text-xl hover:bg-white hover:text-black" >
-                    Contatar</button>
+                <a className="bg-black text-white border-2 p-2 rounded m-4 text-xl hover:bg-white hover:text-black"
+                   href="https://www.linkedin.com/in/sabrinabpf/" target="blank">
+                    Linkedin</a>
+                <a className="bg-black text-white border-2 p-2 rounded m-4 text-xl hover:bg-white hover:text-black" 
+                    href="https://wa.me/55041995805171?text=Olá,%20vi%20seu%20portfolio!" target="blank">
+                    WhatsApp</a>
             </div>
                     
         </div>

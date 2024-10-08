@@ -1,5 +1,3 @@
-import { fontStyle } from "../App"
-
 const Projects = () => {
     return(
         <div className="flex flex-col items-center justify-center bg-black w-screen md:h-screen md:pt-0 pt-20 w-screen">
@@ -7,7 +5,7 @@ const Projects = () => {
 
             <div className="text-white flex flex-col items-center justify-center md:flex-row w-full text-sm md:flex-wrap">
 
-            <div className="bg-principal p-2 m-1 rounded flex flex-col w-4/5 md:w-[350px] md:h-64">
+            <div className="bg-principal p-2 m-1 rounded flex flex-col w-4/5 md:w-1/4 lg:w-1/6 md:h-auto">
                     <div className="text-base bg-violet p-4 rounded w-full mb-2 flex flex-col items-center justify-center">
                         <p className="font-bold">Finance Control</p>
                         <p>Freelancer - Em andamento</p>
@@ -29,7 +27,7 @@ const Projects = () => {
                     </div>        
             </div>
 
-            <div className="bg-principal p-2 m-1 rounded flex flex-col w-4/5 md:w-[350px] md:h-64">
+            <div className="bg-principal p-2 m-1 rounded flex flex-col w-4/5 md:w-1/4 lg:w-1/6 md:h-auto">
                     <div className="text-base bg-violet p-4 rounded w-full mb-2 flex flex-col items-center justify-center">
                         <p className="font-bold">Barbie Page</p>
                         <p>Desenvolvimento próprio</p>
@@ -46,7 +44,7 @@ const Projects = () => {
                     </div> 
             </div>
 
-                <div className="bg-principal p-2 m-1 rounded flex flex-col w-4/5 md:w-[350px] md:h-64">
+                <div className="bg-principal p-2 m-1 rounded flex flex-col w-4/5 md:w-1/4 lg:w-1/6 md:h-auto">
                     <div className="text-base bg-violet p-4 rounded w-full mb-2 flex flex-col items-center justify-center">
                         <p className="font-bold">Integração com GitHub</p>
                         <p>Desenvolvimento Proprio</p>
@@ -66,7 +64,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="bg-principal p-2 m-1 rounded flex flex-col w-4/5 md:w-[350px] md:h-64">
+                <div className="bg-principal p-2 m-1 rounded flex flex-col w-4/5 md:w-1/4 lg:w-1/6 md:h-auto">
                     <div className="text-base bg-violet p-4 rounded w-full mb-2 flex flex-col items-center justify-center">
                         <p className="font-bold">Landing Page</p>
                         <p>Desafio de programação</p>
@@ -82,7 +80,7 @@ const Projects = () => {
                     </div> 
                 </div>
 
-                <div className="bg-principal p-2 m-1 rounded flex flex-col w-4/5 md:w-[350px] md:h-64">
+                <div className="bg-principal p-2 m-1 rounded flex flex-col w-4/5 md:w-1/4 lg:w-1/6 md:h-auto">
                     <div className="text-base bg-violet p-4 rounded w-full mb-2 flex flex-col items-center justify-center">
                         <p className="font-bold">Portfolio em JavaScrip</p>
                         <p>Trabalho da Faculdade</p>
@@ -100,9 +98,9 @@ const Projects = () => {
                     </div> 
                 </div>
             </div>  
-            <h2 className="text-center text-2xl md:text-4xl m-6 text-violet">Confira todos os meus projetos!</h2>
+            <h2 className="text-center text-2xl lg:text-4xl m-6 text-violet">Confira todos os meus projetos!</h2>
 
-            <a href="https://github.com/sabrinapratafernandes?tab=repositories" className="bg-black text-white border-2 p-2 rounded text-xl mb-10 hover:bg-white hover:text-black" >
+            <a href="https://github.com/sabrinapratafernandes?tab=repositories" target="blank" className="bg-black text-white border-2 p-2 rounded text-xl mb-10 hover:bg-white hover:text-black" >
                     Ver Projetos</a>          
         </div>
     )
